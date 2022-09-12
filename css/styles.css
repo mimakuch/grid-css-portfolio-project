@@ -236,6 +236,16 @@ Navbar
   }
 }
 
+/* fixed navbar */
+.navbar-fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 2;
+  box-shadow: var(--light-shadow);
+}
+
 /*
 =============== 
 Sidebar
@@ -253,6 +263,11 @@ Sidebar
   display: grid;
   place-items: center;
   transition: var(--transition);
+  transform: translateX(-100%);
+}
+
+.show-sidebar {
+  transform: translateX(0);
 }
 
 .sidebar-links {
