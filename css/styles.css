@@ -244,6 +244,7 @@ Navbar
   width: 100%;
   z-index: 2;
   box-shadow: var(--light-shadow);
+  background-color: var(--clr-white);
 }
 
 /*
